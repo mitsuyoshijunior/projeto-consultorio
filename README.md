@@ -4,16 +4,9 @@
 <h2>Funcionalidade do projeto</h2>
 <p>A plataforma consiste em uma agenda privativa, listando as próximas consultas que o usuário irá realizar. Apresenta a data, o horário, o modo da consulta (presencial, por vídeo ou chamada telefônica. Também, é possível adicionar mais clientes em sua agenda, além de entrar em contato via mensagem, vídeo ou áudio, apenas clicando no botão designado.</p>
 
-<h2>Versão Desktop</h2>
-![projeto-consultorio1](https://github.com/mitsuyoshijunior/projeto-consultorio/assets/128213637/49406c90-f391-42c9-bd14-798f274215c8)
 
+![projeto-consultorio-responsividade](https://github.com/mitsuyoshijunior/projeto-consultorio/assets/128213637/32a6db11-e2aa-42e6-9e85-3c9b8131c97a)
 
-<h2>Versão tablet/iPad</h2>
-![projeto-consultorio2](https://github.com/mitsuyoshijunior/projeto-consultorio/assets/128213637/504de415-3f88-4116-9839-a59c3d2b48f0)
-
-
-<h2>Versão smartphone</h2>
-![projeto-consultorio3](https://github.com/mitsuyoshijunior/projeto-consultorio/assets/128213637/5d01dd1a-6eea-480c-927e-56d57820b555)
 
 
 <h2>Foco do projeto</h2>
