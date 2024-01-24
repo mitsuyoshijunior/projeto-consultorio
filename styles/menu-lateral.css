@@ -1,0 +1,55 @@
+.menu-lateral {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+
+    header {
+        position: absolute;
+        top: 0;
+        left: 15%;
+    }
+
+    main {
+        position: absolute;
+        top: 20%;
+        left: 15%;
+    }
+
+    .menu-lateral {
+        display: block;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 15%;
+        height: 100vh;
+        background-color: var(--branco-gelo);
+        border-right: 6px groove white;
+    }
+
+    .menu-lateral__nav {
+        display: flex;
+        flex-direction: column;
+        padding: 6.5rem 3rem;
+        gap: 4.5rem;
+    }
+
+    .menu-lateral__nav__item {
+        display: flex;
+        text-decoration: none;
+        align-items: center;
+        gap: 15px;
+        color: var(--cinza-escuro);
+
+    }
+
+    .menu-lateral__nav__item:hover {
+        color: var(--azul);
+        font-weight: 700;
+    }
+
+    .menu-lateral__nav__item:active {
+        color: red;
+    }
+
+}

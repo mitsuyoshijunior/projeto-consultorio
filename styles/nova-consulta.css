@@ -1,0 +1,66 @@
+.nova-consulta {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .nova-consulta {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .nova-consulta__titulo {
+        font-size: 3rem;
+        font-weight: 700;
+        color: var(--cinza-escuro);
+        padding: 1rem 0;
+        text-align: center;
+        border-top: solid 1px var(--cinza-claro);
+    }
+    
+    .nova-consulta__formulario__container {
+        display: flex;
+        align-items: center;
+    }
+
+    .nova-consulta form {
+        border: none;
+        border-radius: 20px;
+        width: 30rem;
+        padding: 1rem;
+        background-color: var(--branco);
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .nova-consulta legend {
+        text-align: center;
+        color: var(--cinza-escuro);
+        font-weight: 700;
+    }
+
+    .nova-consulta label {
+        color: var(--cinza-escuro);
+        font-size: 1.3rem;
+    }
+
+    textarea {
+        resize: none;
+    }
+
+    .container__botao-enviar {
+        display: flex;
+        justify-content: center;
+    }
+
+    .botao-enviar {
+        background-color: var(--azul);
+        width: 30%;
+        border: none;
+        border-radius: 5px;
+        color: var(--branco);
+        cursor: pointer;
+        font-family: var(--fonte-principal);
+        font-weight: 700;
+    }
+}
+

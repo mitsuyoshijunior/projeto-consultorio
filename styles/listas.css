@@ -1,0 +1,165 @@
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.main__lista {
+    margin-bottom: 3rem;
+}
+
+.lista__container {
+    margin-top: 2rem;
+}
+
+.main__subtitulo {
+    color: var(--cinza-escuro);
+    font-weight: 700;
+}
+
+.lista__container {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--branco);
+    border-radius: 8px;
+}
+
+.lista__container__paciente {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid rgba(70, 70, 70, 0.1);
+    border-width: 80%;
+}
+
+.profile__paciente {
+    width: 12%;
+    border-radius: 50%;
+}
+
+.paciente {
+    display: flex;
+    width: 88%;
+    justify-content: space-between;
+}
+
+.paciente__item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.item__nome {
+    color: var(--cinza-escuro);
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.item__container {
+    display: flex;
+    gap: 5px;
+}
+
+.item__container__informacao {
+    color: var(--cinza-claro);
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.chat-botao {
+    background-color: var(--branco);
+    border: none;
+}
+
+.button__span {
+    display: none;
+}
+
+.lista__container__horario {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 10px;
+}
+
+.lista__container__horario__texto {
+    color: var(--cinza-escuro);
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botoes__video {
+    width: 40%;
+    height: 4.8rem;
+    border: 1px solid var(--laranjado);
+    border-radius: 8px;
+    background-color: var(--laranjado);
+    color: var(--branco);
+    font-size: 1.4rem;
+    font-weight: 500;
+    font-family: var(--fonte-principal);
+    cursor: pointer;
+}
+
+.botoes__audio {
+    width: 40%;
+    height: 4.8rem;
+    border: 1px solid var(--branco-gelo);
+    border-radius: 8px;
+    background-color: var(--branco);
+    color: var(--cinza-escuro);
+    font-size: 1.4rem;
+    font-weight: 500;
+    font-family: var(--fonte-principal);
+    cursor: pointer;
+}
+
+.botao__endereco {
+    width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+    height: 4.8rem;
+    border: 1px solid var(--branco-gelo);
+    border-radius: 8px;
+    background-color: var(--azul);
+    color: var(--branco);
+    font-size: 1.4rem;
+    font-weight: 500;
+    font-family: var(--fonte-principal);
+    cursor: pointer;
+}
+
+@media screen and (min-width: 820px) {
+
+    .chat-botao:active {
+        background-color: var(--cinza-claro);
+    }
+
+    .botoes {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .main__lista {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .main__lista li {
+        width: 50%;
+        padding: 1rem;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    .main__lista li{
+        width: 33.3%;
+    }
+}
